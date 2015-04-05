@@ -25,6 +25,12 @@
            fetch="https://github.com"
            review="review.pac-rom.com" />
 
+  <remote  name="ss"
+           fetch="https://github.com/Split-Screen" />
+
+  <remote  name="pic"
+           fetch="https://github.com/Pinky-Inky-and-Clyde" />
+
   <remote  name="github"
            fetch="https://github.com" />
 
@@ -509,7 +515,6 @@
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" remote="cm" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" remote="cm" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" />
-  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="cm" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" remote="cm" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="cm" />
@@ -574,6 +579,7 @@
   <project path="frameworks/opt/net/wifi" name="PAC-man/android_frameworks_opt_net_wifi" groups="pdk" remote="pac" />
   <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" remote="pac" />
   <project path="packages/apps/Exchange" name="PAC-man/android_packages_apps_Exchange" remote="pac" />
+  <project path="packages/apps/PackageInstaller" name="PAC-man/android_packages_apps_PackageInstaller" remote="pac" />
   <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" remote="pac" />
   <project path="packages/apps/UnifiedEmail" name="PAC-man/android_packages_apps_UnifiedEmail" remote="pac" />
 
